@@ -11,4 +11,9 @@ class ProductController extends Controller
 
         return view('allproduct');
     }
+    public function toproduct()
+    {
+
+        return view('product');
+    }
 }

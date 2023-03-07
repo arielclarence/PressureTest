@@ -23,3 +23,7 @@ Route::prefix('/allproduct')->group(function() {
     Route::get("/",[ProductController::class,'toallproduct']);
 
 });
+Route::prefix('/product')->group(function() {
+    Route::get("/",[ProductController::class,'toproduct']);
+
+});

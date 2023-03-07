@@ -37,13 +37,15 @@
         <div class="banner">
             <img src="productbanner.png" alt="">
         </div>
+        <form class="form-horizontal" action="{{ url("/product") }}" method="GET">
+            @csrf
         <div class='container-fluid d-flex justify-content-between'>
             <div>
                 <img src="baju.jpg" width="200" height="200"alt="">
                 <h3 style="text-align: center;">Red T-shirt</h3>
                 <div class="d-flex justify-content-between">
                     <h3>T-shirt</h3>
-                    <h3 style="color: blue">45$</h3>
+                    <button type="submit" style="color: blue">45$</button>
                 </div>
             </div>
             <div>
@@ -51,7 +53,7 @@
                 <h3 style="text-align: center;">Red t-shirt</h3>
                 <div class="d-flex justify-content-between">
                     <h3>T-shirt</h3>
-                    <h3 style="color: blue">45$</h3>
+                    <button type="submit" style="color: blue">45$</button>
 
                 </div>
             </div>
@@ -62,7 +64,7 @@
                 <h3 style="text-align: center;">Red T-shirt</h3>
                 <div class="d-flex justify-content-between">
                     <h3>T-shirt</h3>
-                    <h3 style="color: blue">45$</h3>
+                    <button type="submit" style="color: blue">45$</button>
                 </div>
             </div>
             <div >
@@ -70,10 +72,11 @@
                 <h3 style="text-align: center;">Red t-shirt</h3>
                 <div class="d-flex justify-content-between">
                     <h3>T-shirt</h3>
-                    <h3 style="color: blue">45$</h3>
+                    <button  type="submit" style="color: blue">45$</button>
                 </div>
             </div>
         </div>
+        </form>
     </div>
 </fieldset>
 <script>
